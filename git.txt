@@ -1,6 +1,7 @@
 git clone <-some link->
     clone - cloning a repository on our local machine
 
+
 git status
     status - displays the state of the code
         untracked  -> new files that git doesn't yet track
@@ -8,11 +9,38 @@ git status
         staged     -> file is ready to be committed
         unmodified -> unchanged
 
+
 git add <-file name->
     add - Adds new or changed files in your working directory to the Git staging area
+
 
 git commit -m "some message"
     commit - it is the record of change
 
+
 git push origin main
     push - upload local repo content to remote repo
+
+
+Init Command
+    git init
+    git remote add origin <-link->
+    git remote -v
+        (to verify remote)
+    git branch
+        (to check branch)
+    git branch -M main
+        (to rename branch)
+    git push origin main
+init - used to create a new git repo
+
+
+--- OTHER COMMAND USED IN TERMINAL
+mkdir
+    to create new directories (folders) in a file system
+cd <-file name->
+    to navigate the file system by changing the current working directory to a different location
+cd ..
+    to navigate up one level in the directory hierarchy, moving you from the current directory to its parent directory
+ls
+    displays the files and directories within a specified directory

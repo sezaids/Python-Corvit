@@ -1,0 +1,19 @@
+----------MIQ----------
+# What is nested if statement
+# is difference between multiline and single line string "length and type"?
+# Deep copy vs Shallow copy
+# Pass by value vs Pass by reference
+
+
+
+
+
+----------VIP----------
+# List
+# Dictionary
+# Tuple
+# Loop
+# Conditions
+# * es-teric
+
+# ls.sort(reverse=true)
