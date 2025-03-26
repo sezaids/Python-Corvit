@@ -13,3 +13,6 @@ git add <-file name->
 
 git commit -m "some message"
     commit - it is the record of change
+
+git push origin main
+    push - upload local repo content to remote repo
