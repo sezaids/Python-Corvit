@@ -183,7 +183,7 @@
 
 # 03 assignment home 
 
-st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method and replace first letters in small;
+# st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method and replace first letters in small;
 
 
 # 15 lists  
@@ -234,10 +234,10 @@ st = "Jaranwala Faisalabad Lahore Karachi Multan" # don't use the slice method a
 #     print(p)
 # print(lp)
 
-ls = [ "lahore","Faisalabad","jaranwala"]
-lp = []
-for x in ls:
-    lp.insert(0,x)
+# ls = [ "lahore","Faisalabad","jaranwala"]
+# lp = []
+# for x in ls:
+#     lp.insert(0,x)
 # print(lp)
 
 # print(lp)
@@ -263,7 +263,7 @@ for x in ls:
 # ls = [x for x in range(2,10,2)]
 # print(ls)
 
-ls = ["kaRAChi", "jarAnwaLa", "faiSAlabad","kiVi","test"]
+# ls = ["kaRAChi", "jarAnwaLa", "faiSAlabad","kiVi","test"]
 # ls2 = [x for x in ls if ("a" or "v") in x] #first x is expression and second x is item
 # # for x in ls:
 # #     if "K" in x:
@@ -341,7 +341,7 @@ ls = ["kaRAChi", "jarAnwaLa", "faiSAlabad","kiVi","test"]
 # dic = set({"name" , "amna"})
 # dic = dict({"name" : "amna"})
 # dic = list(["name" , "amna"])
-dic = dict({"name" : "amna" , "age" : 20 , "color" : "white" , "alpha" : "1.09"})
+# dic = dict({"name" : "amna" , "age" : 20 , "color" : "white" , "alpha" : "1.09"})
 
 # print(type(dic),dic, len(dic))
 # print(dic.get("name"))

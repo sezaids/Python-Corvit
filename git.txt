@@ -24,15 +24,38 @@ git push origin main
 
 Init Command
     git init
+        to initialize a new Git repository
     git remote add origin <-link->
+        to add a remote repository to your local Git repository
     git remote -v
         (to verify remote)
     git branch
         (to check branch)
     git branch -M main
         (to rename branch)
-    git push origin main
+    git push origin main 
+        used to push changes from your local repository to a remote repository
 init - used to create a new git repo
+
+
+WORKFLOW
+    Local Git:
+        Github repo > clone > changes > add > commit > push
+
+
+Branch Command
+    git branch
+        (to check branch)
+    git branch -M main
+        (to rename branch)
+    git checkout <-branch name>
+        (to navigate)
+    git checkout -b <-new branch name->
+        (to create new branch)
+    git branch -d <-branch name->
+        (to delete branch)
+
+
 
 
 --- OTHER COMMAND USED IN TERMINAL
