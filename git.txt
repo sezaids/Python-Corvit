@@ -1,0 +1,15 @@
+git clone <-some link->
+    clone - cloning a repository on our local machine
+
+git status
+    status - displays the state of the code
+        untracked  -> new files that git doesn't yet track
+        modified   -> changed
+        staged     -> file is ready to be committed
+        unmodified -> unchanged
+
+git add <-file name->
+    add - Adds new or changed files in your working directory to the Git staging area
+
+git commit -m "some message"
+    commit - it is the record of change
