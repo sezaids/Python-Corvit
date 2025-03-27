@@ -384,18 +384,53 @@
 # dic1["name"] = "adil"
 # print(dic1,dic2)
 
-# Dict = {"country": 'Pakistan', "province": "Punjab", "ID": {'name': "Zaid Sohail", 'gender': "Male", "address": "Lahore"}}
-# # print("Original Dict : ", Dict)
-# print("Original Dict : ", Dict["ID"])
-# Dict["ID"]["religion"] = "Islam"
-# Dict["ID"]["address"] = "Gojra"
-# print("After Updatation : ",Dict["ID"])
-# del Dict["ID"]["gender"]
-# print("After Delete : " ,Dict["ID"])
 
-d = {
-    "a": {"b": {"c" : 0}},
-    "b": {"c" : 1},
-    "c": 2
-    }
-print(d)
+# 25 - Functions
+# def s():
+#     print("Hello world")
+# s()
+
+# def func(name , age):
+#     print("Hello world! " + name , str(age))
+# func("Akash" , 25)
+
+# def func(name , age):
+#     print("Hello world! " + name , str(age))
+# func("Akash" , 25)
+
+# def func(name, age):
+#     print("Hello world! " + name , str(age))
+# func("a",22)
+
+# def func(name, *age):
+#     print(name , str(age[0]))
+# func("alina","25",30)
+
+# def fun(**krgs):
+#     print(krgs["name"] + str(krgs["age"]))
+# fun(name = "akash", age = 34)
+
+# def fun():
+#     pass
+# fun()
+
+# 26 exception handling
+# x = 23
+# y = 24
+# z = 25
+# try:
+#     print(x,a)
+#     try:
+#         print(x,y,z,a)
+#     except:
+#         print("inner error")
+
+# except:
+#     print("outer Error")
+# finally:
+#     print("this is always executed")
+
+
+# 27 Anonymous function
+# x = lambda a,b,c: (a/b)*c # Already return method
+# print(x(5,2,2))

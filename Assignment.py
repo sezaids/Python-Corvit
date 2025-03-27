@@ -192,15 +192,32 @@
 # print(type(st), st)
 
 # set 1 + set 2 + set 3 + set 4 -> join using union -> list -> tuple
-st1 = {"orange","mango","pineapple","apple","kiwi"}
-st2 = {"SF90 Stradale", "roma","296","Daytona SP3"}
-st3 = {"Microsoft","Google","Apple","IBM","Dell"}
-st4 = {"mango","apple","roma","Google","IBM"}
+# st1 = {"orange","mango","pineapple","apple","kiwi"}
+# st2 = {"SF90 Stradale", "roma","296","Daytona SP3"}
+# st3 = {"Microsoft","Google","Apple","IBM","Dell"}
+# st4 = {"mango","apple","roma","Google","IBM"}
 
-set_of_union = st1.union(st2,st3,st4)
-set_to_list = list(set_of_union)
-list_to_tuple = tuple(set_to_list)
-print(set_of_union)
-print(type(set_of_union))
-print(type(set_to_list))
-print(type(list_to_tuple))
+# set_of_union = st1.union(st2,st3,st4)
+# set_to_list = list(set_of_union)
+# list_to_tuple = tuple(set_to_list)
+# print(set_of_union)
+# print(type(set_of_union))
+# print(type(set_to_list))
+# print(type(list_to_tuple))
+
+
+# Dict = {"country": 'Pakistan', "province": "Punjab", "ID": {'name': "Zaid Sohail", 'gender': "Male", "address": "Lahore"}}
+# # print("Original Dict : ", Dict)
+# print("Original Dict : ", Dict["ID"])
+# Dict["ID"]["religion"] = "Islam"
+# Dict["ID"]["address"] = "Gojra"
+# print("After Updatation : ",Dict["ID"])
+# del Dict["ID"]["gender"]
+# print("After Delete : " ,Dict["ID"])
+
+# d = {
+#     "a": {"b": {"c" : 0}},
+#     "b": {"c" : 1},
+#     "c": 2
+#     }
+# print(d)

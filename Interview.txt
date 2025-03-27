@@ -5,7 +5,8 @@
 # Pass by value vs Pass by reference
 
 
-
+* Arbitrary | args
+** Arbitrary Keyword arguments | kwargs
 
 
 
@@ -18,3 +19,10 @@
 # * es-teric
 
 # ls.sort(reverse=true)
+
+----------Library----------
+kivi library is used to built Android apps
+tkinter library is used to build desktop apps (.exe)
+
+
+Switch one language to another in 24 Hours - Book
