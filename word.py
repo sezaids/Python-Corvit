@@ -434,3 +434,126 @@
 # 27 Anonymous function
 # x = lambda a,b,c: (a/b)*c # Already return method
 # print(x(5,2,2))
+
+# ls1 = ["Faisalabad","jaranwala"]
+# ls2 = ["Lahore1"]
+# ls1.extend(ls2)
+# print(ls1, type(ls1))
+
+# tup1 = ("faisalabad","Jaranwala","Lahore")
+# tup2 = (1,2,3,4,5,6,7)
+# tup3 = tup2 + tup1
+# print(tup3)
+
+# st = {"hello","world","!"}
+# st = set((False,True,"hello","world","!",0,1,"yes","no"))
+# st2 = set(("philospher","hell menu"))
+
+# st.add("philospher")
+# st.update(st2)
+
+
+# Functions ---------------------------------------------------------------:
+# def sum():
+#     print(type(str(42)), type(42))
+# sum()
+
+# def sum(a,b,c):
+#     print(a+b-c)
+# sum(10,20,10)
+
+# def sum(a,b):
+#     print("hello world {} : {}".format(a,b))
+# sum(10,20)
+
+# def sum(a,b):
+#     print(f"hello world {a} : {b}")
+# sum(10,20)
+
+# def sum(a,*b,c):
+#     print(f"hello world {a} : {b[0]} : {b[1]} : {b}")
+# sum(10,20,30,40)
+
+# def sum(a,**b):
+    
+
+# class Employee:
+#     def setEmp(this,name,age):
+#         this.name = name
+#         this.age = age
+#     def getEmp(q):
+#         print(f"{q.name} : {q.age}")
+
+# ab = Employee()
+# cd = Employee()
+# ab.setEmp("ab",23)
+# ab.getEmp()  
+# cd.setEmp("cd",4)
+# cd.getEmp()
+
+# class Employee:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def getEmp(self):
+#         print(f"{self.name} : {self.age}")
+# ab = Employee("Aslam",23)
+# ab.getEmp()
+
+
+# class Parent():
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+        
+#     def name_age (self):
+#         print(f"Name is : {self.name} , Age is : {self.age}")
+# class Child(Parent):
+#     def __init__(self,name, age, education):
+#         self.education = education
+#         super().__init__(name, age)
+#     def edu(self):
+#         print(f"Education is : {self.education}")
+# ab = Child("Anam", 23,"SE")
+# ab.name_age()
+# ab.edu()
+
+
+# class Parent():
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+        
+#     def info (self,birthday):
+#         print(f"Name is : {self.name} , Age is : {self.age}, Birthday is : {self.birthday}")
+# class Child(Parent):
+#     def __init__(self,name, age, education):
+#         self.education = education
+#         super().__init__(name, age)
+#     def edu(self):
+#         print(f"Education is : {self.education}")
+# ab = Child("Anam", 23,"SE")
+# ab.info("23-03-2000")
+# ab.edu()
+
+
+# class Parent():
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+        
+#     def info(self, birthday):
+#         # self.birthday = birthday  # Assign birthday to an instance attribute
+#         print(f"Name is : {self.name} , Age is : {self.age}, Birthday is : {birthday}")
+
+# class Child(Parent):
+#     def __init__(self, name, age, education):
+#         self.education = education
+#         super().__init__(name, age)
+
+#     def edu(self):
+#         print(f"Education is : {self.education}")
+
+# ab = Child("Anam", 23, "SE")
+# ab.info("23-03-2000")  # This now works correctly
+# ab.edu()

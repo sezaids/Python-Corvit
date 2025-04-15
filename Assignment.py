@@ -221,3 +221,205 @@
 #     "c": 2
 #     }
 # print(d)
+
+# def func_city(ls):
+#     input_city = input("Please enter city name: ")
+#     for city in ls:
+#         if(input_city == city):
+#             print("City is cleaned")
+#             break
+#     else:
+#         print("City is not cleaned")
+
+# ls = ["faisalabad","gojra","lahore","karachi","multan"]
+# func_city(ls)
+
+
+# def fun(c):
+#     alp = False
+#     ls = ["faisalabad","gojra","lahore","karachi","multan"]
+#     for city in ls:
+#         if(city == c):
+#             alp = True
+#     if(alp):
+#         print("City is cleaned")
+#     else:
+#         print("City is not cleaned")
+# c = input("Please enter city name: ")
+# fun(c)
+
+
+# def func(num):
+#     flag = False
+#     # if num in range (50 ,501):
+#     #     flag = True
+#     if num >= 50 and num <= 500:
+#         flag = True
+#     if(flag):
+#         print(num ,"Flag is True")
+#     else:
+#         print(num ,"Flag is False")
+# c = 50+70-203*2/5
+# func(c)
+
+# Written test > 09-04-25 > Q#2
+# lp = ("A distinct section of a piece of writing, usually dealing with a single theme and indicated by a new line, indentation, or numbering.")
+# sep = lp.split(" ")
+# in_list = list(sep)
+# in_tuple = tuple(sep)
+
+# print(type(lp))
+# print(type(in_list))
+# print(type(in_tuple))
+
+# a = [1,2,3]
+# print(a[2:1])
+
+# lp = ("hello man")
+# print(type(lp))
+
+# # Assignment > 10-04-25 > Sum using Class
+# class Sum:
+#     def setter(this, a, b):
+#         this.a = a
+#         this.b = b
+#     def getter(this):
+#         print(f"Sum is {this.a + this.b}")
+
+# sum = Sum()
+# sum.setter(15,20)
+# sum.getter()
+
+# class Info:
+#     def __init__(this,name,age):
+#         this.name = name
+#         this.age = age
+#     def getter(this):
+#         print(f"Name is : {this.name} , Age is : {this.age}")
+# info1 = Info("Aslam",20)
+# info2 = Info("Akram",22)
+# info3 = Info("Alia",21)
+# info4 = Info("Atika",24)
+# info5 = Info("Aleem",26)
+# info1.getter()
+# info2.getter()
+# info3.getter()
+# info4.getter()
+# info5.getter()
+
+# class sum:
+#     def __init__(this, *num):
+#         this.num = num
+#     def getSum(this):
+#         print(f"{this.num[0]} + {this.num[1]} : {this.num[0] + this.num[1]}")
+# sumNum = sum(10,155)
+# sumNum.getSum()
+
+# name age marks > **kwargs
+
+# class Student:
+#     def __init__(self, **std):
+#         self.std = std
+#     def getStd(self):
+#         print(f"Name is : {self.std['name']} , Age is : {self.std['age']} , Marks is : {self.std['marks']}")
+
+# std1 = Student(name = "Ali", age = 20, marks = 85)
+# std1.getStd()
+
+# class Student:
+#     def __init__(self, **stdDetail):
+#         self.stdDetail = stdDetail;
+#     def stdPrint(self):
+#         print(f"Name : {self.stdDetail['name']} --- Age : {self.stdDetail['age']} --- CGPA : {self.stdDetail['cgpa']} --- ID : {self.stdDetail['id']}")
+
+# std1 = Student(name = "Zaid", age = 22, cgpa = 3.88, id = 240410277)
+# std2 = Student(name = "Subhan", age = 21, cgpa = 3.90, id = 240512285)
+# print("\n")
+# std1.stdPrint()
+# std2.stdPrint()
+# print("\n")
+
+class Animal:
+    def __init__(self, multicellular, mobile, consumes_organics):
+        self.multicellular = multicellular
+        self.mobile = mobile
+        self.consumes_organics = consumes_organics
+    def prntanimal(multicellular, mobile, consumes_organics):
+        print(f"multicellular : {multicellular} , mobile : {mobile} , consumes_organics : {consumes_organics}")
+
+class Fish(Animal):
+    def __init__(self, Cold_blooded, aquatic, gills):
+        self.Cold_blooded = Cold_blooded
+        self.aquatic = aquatic
+        self.gills = gills
+    def prntfish(self):
+        print(f"Cold_blooded : {self.Cold_blooded} , aquatic : {self.aquatic} , gills : {self.gills}")
+
+class Tuna(Fish):
+    def __init__(self, fast_swimmer, saltwater, schooling):
+        self.saltwater = saltwater
+        self.fast_swimmer = fast_swimmer
+        self.schooling = schooling
+    def prnttuna(self):
+        print(f"fast_swimmer : {self.fast_swimmer} , saltwater : {self.saltwater}, schooling = {self.schooling}")
+
+class Shark(Fish):
+    def __init__(self, cartilaginous, sharp_teeth, keen_smell):
+        self.cartilaginous = cartilaginous
+        self.sharp_teeth = sharp_teeth
+        self.keen_smell = keen_smell
+    def prntshark(self):
+        print(f"cartilaginous : {self.cartilaginous} , sharp_teeth : {self.sharp_teeth}, keen_smell : {self.keen_smell}")
+
+class Bird(Animal):
+    def __init__(self, warm_blooded, feathers, lay_eggs):
+         self.warm_blooded = warm_blooded
+         self.feathers = feathers
+         self.lay_eggs = lay_eggs
+    def prntbird(self):
+        print(f"warm_blooded : {self.warm_blooded} , feathers : {self.feathers} , lay_eggs : {self.lay_eggs}")
+
+class Peacook(Bird):
+    def __init__(self, Colorful_tail, ground_bird, omnivore):
+        self.Colorful_tail = Colorful_tail
+        self.ground_bird = ground_bird
+        self.omnivore = omnivore
+    def prntpeacook(self):
+        print(f"Colorful_tail : {self.Colorful_tail} , ground_bird : {self.ground_bird} , omnivore : {self.omnivore}")
+
+class Mammal(Animal):
+    def __init__(self, Warm_blooded, hair, nurse_young, multicellular, mobile, consumes_organics):
+        self.warm_blooded = Warm_blooded
+        self.hair = hair
+        self.nurse_young = nurse_young
+        super().__init__(multicellular, mobile, consumes_organics)
+    def prntmammal(self):
+        print(f"warm_blooded : {self.warm_blooded} , hair : {self.hair} , nurse_young : {self.nurse_young}")
+
+class Cat(Mammal):
+    def __init__(self, Agile, claws, independent):
+        self.Agile = Agile
+        self.claws = claws
+        self.independent = independent
+    def prntcat(self):
+        print(f"Agile : {self.Agile} , claws : {self.claws} , independent : {self.independent}")
+
+class Dog(Mammal):
+    def __init__(self, social, intelligent, wolf_ancestor):
+        self.social = social
+        self.intelligent = intelligent
+        self.wolf_ancestor = wolf_ancestor
+    def prntdog(self):
+        print(f"social : {self.social} , intelligent : {self.intelligent} , wolf_ancestor : {self.wolf_ancestor}")
+
+class Human(Mammal):
+    def __init__(self, advanced_brain, language, tools, social, intelligent, wolf_ancestor):
+        self.advanced_brain = advanced_brain
+        self.language = language
+        self.tools = tools
+        super().__init__(social, intelligent, wolf_ancestor)
+    def prnthuman(self):
+        print(f"advanced_brain : {self.advanced_brain} , language : {self.language} , tools : {self.tools}")
+
+hum = Animal()
+hum.prntanimal()
